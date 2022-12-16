@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webdev</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+            rel="stylesheet"
+    />
+</head>
+
+<body>
+<header class="header">
+    <nav>
+        <ul class="header__list">
+            <li class="header__item">
+                <a class="header__link" href="#">About</a>
+            </li>
+            <li class="header__item">
+                <a class="header__link" href="#">Syllabus</a>
+            </li>
+            <li class="header__item">
+                <a class="header__link" href="index.html">
+                    <img src="img/logo.png" alt="logo" width="44" height="45" />
+                </a>
+            </li>
+            <li class="header__item">
+                <a class="header__link" href="#">Projects</a>
+            </li>
+            <li class="header__item">
+                <a class="header__link" href="#">FAQ</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main">
+    <div class="intro__wrapper">
+        <section class="intro">
+            <h1 class="intro__title">your life is WebDev</h1>
+            <p class="intro__text">
+                Whatever the approach to development may be, the final program must
+                satisfy some fundamental properties
+            </p>
+
+            <a href="#" class="button">Get started</a>
+
+            <nav>
+                <ul class="intro__list">
+                    <li class="intro__item">
+                        <a class="intro__link" href="#">
+                            <img
+                                    src="assets/mail.png"
+                                    alt="maillogo"
+                                    width="20"
+                                    height="20"
+                            />
+                        </a>
+                    </li>
+                    <li class="intro__item">
+                        <a class="intro__link" href="#">
+                            <img
+                                    src="assets/facebook.png"
+                                    alt="fblogo"
+                                    width="20"
+                                    height="20"
+                            />
+                        </a>
+                    </li>
+                    <li class="intro__item">
+                        <a class="intro__link" href="#">
+                            <img
+                                    src="assets/insta.png"
+                                    alt="instalogo"
+                                    width="20"
+                                    height="20"
+                            />
+                        </a>
+                    </li>
+                    <li class="intro__item">
+                        <a class="intro__link" href="#">
+                            <img
+                                    src="assets/telegram.png"
+                                    alt="tglogo"
+                                    width="20"
+                                    height="20"
+                            />
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </div>
+
+    <section class="rappresent">
+        <h2 class="rappresent__title">
+            Rappresent your idea with a smart Design
+        </h2>
+        <p class="rappresent__paragraph">
+            Tasks accompanying and related to programming include: testing,
+            debugging, source code maintenance,
+            <strong> implementation of build systems,</strong>
+            and management of derived artifacts, such as the machine code of
+            computer programs.
+        </p>
+
+        <a href="#" class="button">Get started</a>
+    </section>
+
+    <!-- community section start -->
+    <div class="community__wrapper-all">
+        <section class="community">
+            <div class="community__text-wrapper">
+                <div class="community__text-content">
+                    <img
+                            class="userpic"
+                            src="img/userpic.png"
+                            alt="userpic"
+                            width="45"
+                            height="45"
+                    />
+                    <h3 class="community__title">Our community</h3>
+                    <p class="community__paragraph">
+                        A hacker is any skilled computer expert that uses their
+                        technical knowledge to overcome a problem, but it can also mean
+                        a security hacker in common language
+                    </p>
+                </div>
+            </div>
+
+            <div class="community__slider-wrapper">
+                <div class="button-container">
+                    <button class="button-slider">❮</button>
+                    <span>1</span>
+                    <span>/</span>
+                    <span>5</span>
+                    <button class="button-slider">❯</button>
+                </div>
+
+                <div class="slider">
+                    <ul class="slider__list">
+                        <li class="slider__item">
+                            <img
+                                    class="slider-image"
+                                    src="img/slider1.jpg"
+                                    alt="slider photo 1"
+                                    width="407"
+                                    height="244"
+                            />
+                        </li>
+
+                        <li class="slider__item">
+                            <img
+                                    class="slider-image"
+                                    src="img/slider2.jpg"
+                                    alt="slider photo 2"
+                                    width="407"
+                                    height="244"
+                            />
+                        </li>
+
+                        <li class="slider__item">
+                            <img
+                                    class="slider-image"
+                                    src="img/slider3.jpg"
+                                    alt="slider photo 1"
+                                    width="407"
+                                    height="244"
+                            />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- community section end -->
+
+    <section class="implement">
+        <h2 class="implement__title">Implement right code</h2>
+        <p class="implement__paragraph">
+            These might be considered part of the
+            <strong> programming process,</strong> but often the term software
+            development is used for this larger process with the term programming,
+            implementation
+        </p>
+
+        <a href="#" class="button">Learn more</a>
+    </section>
+
+    <section class="sign-up">
+        <h2 class="signup__title">Sign up for our newsletter</h2>
+        <div class="signup-wrapper">
+            <form action="#" method="get">
+                <label for="email">
+                    <input
+                            type="email"
+                            id="email"
+                            placeholder="Email"
+                            name="email"
+                            required
+                    />
+                </label>
+                <button class="submit-button" type="submit" value="Submit">
+                    <img
+                            src="img/submit-icon.png"
+                            width="17"
+                            height="13"
+                            alt="submit icon"
+                    />
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <section class="download">
+        <h2 class="download__title">Download the App</h2>
+        <p class="download__paragraph">
+            Machine code was the language of early programs, written in the
+            instruction set of the particular machine, often in binary notation.
+        </p>
+
+        <a href="#" class="button icon-button">
+            <span>Apple store</span>
+            <span class="icon-wrapper">
+            <img
+                    src="img/apple.png"
+                    width="17"
+                    height="20"
+                    alt="icon apple"
+            />
+          </span>
+        </a>
+
+        <a href="#" class="button icon-button">
+            <span>Play market</span>
+            <span class="icon-wrapper">
+            <img
+                    src="img/android.png"
+                    width="20"
+                    height="23"
+                    alt="icon android"
+            />
+          </span>
+        </a>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="footer__wrapper">
+        <nav class="footer__nav">
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Credits</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Privacy</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Our Teams</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="footer__logo">
+            <a class="footer__link-logo" href="#">
+                <img src="img/logo.png" alt="logo" width="44" height="45" />
+            </a>
+        </div>
+
+        <div class="footer__copyrights">
+            <p>by LoretaRi for RSS at 2022</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
